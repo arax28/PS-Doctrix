@@ -27,8 +27,8 @@ param(
 [int]$RetentionDays = -1,
 # Имя файла для записи лога
 # Todo: Реализовать проверку и использование этого параметра
-#[Parameter(Mandatory=$false)]
-#[string]$LogFile,
+[Parameter(Mandatory=$false)]
+[string]$LogFile,
 [switch]$SkipContentBackup,
 [switch]$DoNotCompress
 )
